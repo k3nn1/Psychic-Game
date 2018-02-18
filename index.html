@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <style>
+    .jumbotron {
+        margin: 20px;
+        background-image: url("assets/images/space.jpg");
+        background-size: cover;
+    }
+    
+    </style>
+
+</head>
+<body>
+    <div class="jumbotron">
+        <div class="container">
+            <div row="col-md-12">
+                <h1 class="text-center">The Psychic Game</h1>
+                <p class="text-center"><span style="color:aliceblue">What letter am I thinking of?</span></p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="text-center"><label type="label" class="label label-success" >Wins: <span class="badge" id="Wins"></label></span></h3>
+                <h3 class="text-center"><label type="label" class="label label-danger">Losses: <span class="badge"id="Losses" ></label></span></h3>
+                <h3 class="text-center"><label type="label" class="label label-warning">Guesses Left: <span class="badge" id="GuessesLeft"></label></span></h3>
+                <h3 class="text-center"><label type="label" class="label label-info">Your Guesses so far: <span class="badge" id="YourGuessesSoFar"></label></span></h3>
+            </div>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="assets/javascript/game.js">
+       
+    </script>
+    
+</body>
+</html>
